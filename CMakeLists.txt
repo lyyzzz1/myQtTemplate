@@ -14,8 +14,8 @@ qt_standard_project_setup()
 
 add_executable(
     ${CMAKE_PROJECT_NAME}
-    src/main.cpp
-    src/mainwindow.cpp
+    main.cpp
+    mainwindow.cpp
 )
 
 target_include_directories(
